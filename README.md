@@ -42,6 +42,9 @@ Logitech Driving Force GT (DFGT) を **Arduino Uno R3 + USB Host Shield 2.0 (MAX
 *   `hidjoystickrptparser.cpp` ：USBパケット受信部。ボタンやペダルなどの生ビットを物理変数へデコードします。
 *   `hidjoystickrptparser.h` ：DFGT用のネイティブ12バイトパケット構造体、および各変数の定義。
 
+上記ファイルを３つArduino ide2.0にて読み込んでください。
+boardはArduino Uno R3を推奨します。(Megaで動作するかは未検証ですが動くはずです)
+Arduino R4はUSB Host shieldが動作しないため使用できません!
 ---
 
 ##  Arduino等との接続方法
