@@ -1,4 +1,4 @@
-# Logitech DFGT Active FFB Driver for Arduino Uno & USB Host Shield
+# Logitech DFGT FFB Driver for Arduino Uno & USB Host Shield
 
 Logitech Driving Force GT (DFGT) を **Arduino Uno R3 + USB Host Shield 2.0 (MAX3421E)** を用いて動作させ、自律物理演算による高度なフォースフィードバック (FFB) と、他デバイス間との超低遅延双方向シリアル通信を実現するためのプログラムです。
 
